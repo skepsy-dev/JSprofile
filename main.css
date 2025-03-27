@@ -36,9 +36,9 @@ body {
     /* text-align: center; */
 }
 
-.tabFont {
-    
-}
+/* p {
+    font-family: bodyFont;
+} */
 
 
 
@@ -57,9 +57,17 @@ body {
     filter: brightness(0.3);
 }
   
-  .content {
-    padding: 10vh 10vw;
-    max-width: 800px;
+.aboutTitle {
+    /* text-align: center; */
+    padding-top: 5%;
+    padding-right: 3%;
+    max-width: 650px;
+    margin: auto;
+}
+
+.aboutContent {
+    /* padding: 10vh 10vw; */
+    max-width: 650px;
     margin: auto;
   }
   
