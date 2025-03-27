@@ -32,7 +32,6 @@ body {
 
   .titleFont {
     font-family: "titleFont";
-    font-size: 43px;
     /* text-align: center; */
 }
 
@@ -40,7 +39,9 @@ body {
     font-family: bodyFont;
 } */
 
-
+img:hover {
+    opacity: 1.0;
+}
 
 .background {
     background-image: url('images/jsBg.jpeg');
@@ -69,7 +70,7 @@ body {
     /* padding: 10vh 10vw; */
     max-width: 650px;
     margin: auto;
-  }
+}
   
 
 
@@ -85,20 +86,20 @@ body {
     z-index: 1;
 }
 
-.navbar-links {
+/* .navbar-links {
     float: right;
     margin-top: 1%;
     margin-right: 3%;
-}
+} */
 
 .navLogo {
     width: auto;
-    height: 45px;
+    height: 35px;
     margin-top: 1%;
     margin-left: 3%;
 }
 
-.instaLogo {
+/* .instaLogo {
     width: auto;
     height: 30px;
     opacity: 0.6;
@@ -109,11 +110,58 @@ body {
     height: 23px;
     margin-bottom: 4px;
     opacity: 0.8;
+} */
+
+
+
+
+
+
+
+
+/* Adjust content per smaller screen sizes */
+@media screen and (max-width: 1300px) {
+    .aboutTitle {
+        font-size: 40px;
+    }
 }
 
-img:hover {
-    opacity: 1.0;
+
+ @media screen and (max-width: 800px) {
+    .aboutTitle {
+        max-width: 500px;
+        font-size: 33px;
+    }
+    
+    .aboutContent {
+        max-width: 550px;
+    }
+
+    .navLogo {
+        height: 25px;
+    }
 }
+
+@media screen and (max-width: 400px) {
+    .aboutTitle {
+        max-width: 250px;
+        font-size: 23px;
+    }
+    
+    .aboutContent {
+        max-width: 250px;
+    }
+    
+    .navLogo {
+        height: 15px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+   
+}
+
+
 
 
 
