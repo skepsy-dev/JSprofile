@@ -1,0 +1,115 @@
+/* Fonts */
+@font-face {
+    font-family: 'bodyFont';
+    src: url('font/Novecentosanswide-Light-webfont.woff2') format('woff2'),
+        url('font/Novecentosanswide-Light-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'tabFont';
+    src: url('font/Novecentosanswide-DemiBold-webfont.woff2') format('woff2'),
+        url('font/Novecentosanswide-DemiBold-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'titleFont';
+    src: url('font/Novecentosanswide-Bold-webfont.woff2') format('woff2'),
+        url('font/Novecentosanswide-Bold-webfont.woff') format('woff');
+}
+
+body {
+    font-family: "bodyFont";
+    color: white;
+    scroll-behavior: smooth;
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .titleFont {
+    font-family: "titleFont";
+    font-size: 43px;
+    /* text-align: center; */
+}
+
+.tabFont {
+    
+}
+
+
+
+.background {
+    background-image: url('images/jsBg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: brightness(0.3);
+}
+  
+  .content {
+    padding: 10vh 10vw;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+
+
+
+
+
+
+
+/* Navbar Top (header)*/
+.navBar {
+    background-color: inherit;
+    position: relative; /* stays above the background */
+    z-index: 1;
+}
+
+.navbar-links {
+    float: right;
+    margin-top: 1%;
+    margin-right: 3%;
+}
+
+.navLogo {
+    width: auto;
+    height: 45px;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+.instaLogo {
+    width: auto;
+    height: 30px;
+    opacity: 0.6;
+}
+
+.msLogo {
+    width: auto;
+    height: 23px;
+    margin-bottom: 4px;
+    opacity: 0.8;
+}
+
+img:hover {
+    opacity: 1.0;
+}
+
+
+
+
+
+
+
