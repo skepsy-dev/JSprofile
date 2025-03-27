@@ -35,6 +35,9 @@ body {
     /* text-align: center; */
 }
 
+html, body {
+    overscroll-behavior: none;
+  }
 /* p {
     font-family: bodyFont;
 } */
@@ -75,15 +78,14 @@ img:hover {
 
 
 
-
-
-
-
 /* Navbar Top (header)*/
 .navBar {
-    background-color: inherit;
-    position: relative; /* stays above the background */
-    z-index: 1;
+    background-color: transparent;
+    position: fixed; /* stays above the background */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* make sure it's above everything */
 }
 
 /* .navbar-links {
