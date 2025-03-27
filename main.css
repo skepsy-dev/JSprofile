@@ -44,7 +44,7 @@ img:hover {
 }
 
 .background {
-    background-image: url('images/jsBg.jpeg');
+    background-image: url('images/jsBg.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
